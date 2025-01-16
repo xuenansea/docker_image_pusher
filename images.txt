@@ -5,7 +5,7 @@
 # 支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 # 20250116 base images
---platform=linux/arm64  registry.uniontech.com/uos-container/nfs-server:latest
+--platform=linux/arm64 registry.uniontech.com/uos-container/nfs-server:latest
 --platform=linux/arm64 library/openjdk:11.0.16-jre
 --platform=linux/arm64 library/openjdk:8u342-jre
 --platform=linux/arm64 redis:7.4.0
@@ -18,6 +18,7 @@
 --platform=linux/arm64 zookeeper:3.8.2
 --platform=linux/arm64 mysql:8.3.0
 --platform=linux/arm64 lscr.io/linuxserver/homeassistant:latest
+--platform=linux/arm64 wordpress:php8.1
 
 
 --platform=linux/amd64 registry.uniontech.com/uos-container/nfs-server:latest
@@ -32,4 +33,23 @@
 --platform=linux/amd64 zookeeper:3.8.2
 --platform=linux/amd64 mysql:8.3.0
 --platform=linux/amd64 lscr.io/linuxserver/homeassistant:latest
+--platform=linux/amd64 wordpress:php8.1
+
+
+# -----last
+
+# --platform=linux/amd64 linuxserver/qbittorrent
+# --platform=linux/arm64 ubuntu
+# --platform=linux/arm64 redis
+# --platform=linux/arm64 mariadb
+# --platform=linux/arm64 nginx
+# --platform=linux/arm64 library/openjdk
+
+# --platform=linux/amd64 linuxserver/qbittorrent
+# --platform=linux/amd64 ubuntu
+# --platform=linux/amd64 redis
+# --platform=linux/amd64 mariadb
+# --platform=linux/amd64 nginx
+# --platform=linux/amd64 library/openjdk
+
 
