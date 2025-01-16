@@ -15,6 +15,6 @@
 --platform=linux/arm64 nginx:1.27.0
 --platform=linux/arm64 trnape/rpi-samba:latest
 --platform=linux/arm64 probezy/cpolar:latest
---platform=linux/arm64 qbittorrent:5.0.3-r0-ls372
+--platform=linux/arm64 linuxserver/qbittorrent:5.0.0-r2-ls361
 --platform=linux/arm64 zookeeper:3.8.2
 --platform=linux/arm64 mysql:8.3.0
