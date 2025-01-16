@@ -4,7 +4,7 @@
 # xhofe/alist:latest
 # 支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
-# 20250116 nfs jdk  mariadb
+# 20250116 base images
 --platform=linux/arm64  registry.uniontech.com/uos-container/nfs-server:latest
 --platform=linux/arm64 library/openjdk:11.0.16-jre
 --platform=linux/arm64 library/openjdk:8u342-jre
@@ -17,6 +17,7 @@
 --platform=linux/arm64 linuxserver/qbittorrent:5.0.0-r2-ls361
 --platform=linux/arm64 zookeeper:3.8.2
 --platform=linux/arm64 mysql:8.3.0
+--platform=linux/arm64 lscr.io/linuxserver/homeassistant:latest
 
 
 --platform=linux/amd64 registry.uniontech.com/uos-container/nfs-server:latest
@@ -26,8 +27,9 @@
 --platform=linux/amd64 mariadb:10.3.35
 --platform=linux/amd64 ubuntu
 --platform=linux/amd64 nginx:1.27.0
---platform=linux/amd64 trnape/rpi-samba:latest
 --platform=linux/amd64 probezy/cpolar:latest
 --platform=linux/amd64 linuxserver/qbittorrent:5.0.0-r2-ls361
 --platform=linux/amd64 zookeeper:3.8.2
 --platform=linux/amd64 mysql:8.3.0
+--platform=linux/amd64 lscr.io/linuxserver/homeassistant:latest
+
