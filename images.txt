@@ -52,4 +52,12 @@
 --platform=linux/amd64 nginx
 --platform=linux/amd64 library/openjdk
 
+--platform=linux/arm64 wordpress:php8.1
+--platform=linux/arm64 nginx:1.25.1
+--platform=linux/arm64 redis:6.2.1
+
+--platform=linux/amd64 wordpress:php8.1
+--platform=linux/amd64 nginx:1.25.1
+--platform=linux/amd64 redis:6.2.1
+
 
