@@ -43,6 +43,7 @@
 --platform=linux/arm64 nginx
 --platform=linux/arm64 library/openjdk
 --platform=linux/arm64 wordpress
+--platform=linux/arm64 dperson/samba:latest
 
 --platform=linux/amd64 linuxserver/qbittorrent
 --platform=linux/amd64 ubuntu
@@ -51,3 +52,4 @@
 --platform=linux/amd64 nginx
 --platform=linux/amd64 library/openjdk
 --platform=linux/amd64 wordpress
+--platform=linux/amd64 dperson/samba:latest
