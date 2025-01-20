@@ -11,7 +11,7 @@
 # --platform=linux/arm64 redis:7.4.0
 # --platform=linux/arm64 mariadb:10.3.35
 # --platform=linux/arm64 ubuntu
---platform=linux/arm64 ubuntu:20.04 
+# --platform=linux/arm64 ubuntu:20.04 
 # --platform=linux/arm64 nginx:1.27.0
 # --platform=linux/arm64 trnape/rpi-samba:latest
 # --platform=linux/arm64 probezy/cpolar:latest
@@ -28,7 +28,7 @@
 # --platform=linux/amd64 redis:7.4.0
 # --platform=linux/amd64 mariadb:10.3.35
 # --platform=linux/amd64 ubuntu
---platform=linux/amd64 ubuntu:20.04 
+# --platform=linux/amd64 ubuntu:20.04 
 # --platform=linux/amd64 nginx:1.27.0
 # --platform=linux/amd64 probezy/cpolar:latest
 # --platform=linux/amd64 linuxserver/qbittorrent:5.0.0-r2-ls361
@@ -38,22 +38,22 @@
 # --platform=linux/amd64 wordpress:php8.1
 
 # -----last
-#--platform=linux/amd64 linuxserver/qbittorrent
-#--platform=linux/arm64 ubuntu
-#--platform=linux/arm64 redis
-#--platform=linux/arm64 mariadb
-#--platform=linux/arm64 nginx
-#--platform=linux/arm64 library/openjdk
-#--platform=linux/arm64 wordpress
-#--platform=linux/arm64 dperson/samba:latest
-#--platform=linux/arm64 star7th/showdoc:arm-latest
+--platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/arm64 ubuntu
+--platform=linux/arm64 redis
+--platform=linux/arm64 mariadb
+--platform=linux/arm64 nginx
+--platform=linux/arm64 library/openjdk
+--platform=linux/arm64 wordpress
+--platform=linux/arm64 dperson/samba:latest
+--platform=linux/arm64 star7th/showdoc:arm-latest
 
-#--platform=linux/amd64 linuxserver/qbittorrent
-#--platform=linux/amd64 ubuntu
-#--platform=linux/amd64 redis
-#--platform=linux/amd64 mariadb
-#--platform=linux/amd64 nginx
-#--platform=linux/amd64 library/openjdk
-#--platform=linux/amd64 wordpress
-#--platform=linux/amd64 dperson/samba:latest
-#--platform=linux/amd64 star7th/showdoc:latest
+--platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/amd64 ubuntu
+--platform=linux/amd64 redis
+--platform=linux/amd64 mariadb
+--platform=linux/amd64 nginx
+--platform=linux/amd64 library/openjdk
+--platform=linux/amd64 wordpress
+--platform=linux/amd64 dperson/samba:latest
+--platform=linux/amd64 star7th/showdoc:latest
