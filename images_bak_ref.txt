@@ -4,14 +4,12 @@
 --platform=linux/arm64  rook/nfs:v1.7.3
 --platform=linux/arm64  rook/nfs:master
 --platform=linux/arm64  rook/nfs:v1.6.11
-	
 
 --platform=linux/arm64  gists/nfs-server:latest
 --platform=linux/arm64  gists/nfs-server:2.6.4
 --platform=linux/arm64  gists/nfs-server:2.5.4
 
 --platform=linux/arm64  fascinatedcow/kodi:21.1.0
---platform=linux/arm64  fascinatedcow/kodi:22.2.4
 --platform=linux/arm64  vortland/kodi:latest
 --platform=linux/arm64  lsioarmhf/kodi-headless-aarch64:44
 --platform=linux/arm64  lsioarmhf/kodi-headless-aarch64:latest
@@ -78,6 +76,7 @@ docker run -it --rm -p 445:445 -e "USER=samba" -e "PASS=secret" -v "/home/exampl
 # --platform=linux/amd64 lscr.io/linuxserver/homeassistant:latest
 # --platform=linux/amd64 wordpress:php8.1
 
+
 # -----last
 --platform=linux/amd64 linuxserver/qbittorrent
 --platform=linux/arm64 ubuntu
@@ -86,7 +85,7 @@ docker run -it --rm -p 445:445 -e "USER=samba" -e "PASS=secret" -v "/home/exampl
 --platform=linux/arm64 nginx
 --platform=linux/arm64 library/openjdk
 --platform=linux/arm64 wordpress
---platform=linux/arm64 dperson/samba:latest
+--platform=linux/arm64 dockurr/samba:latest
 --platform=linux/arm64 star7th/showdoc:arm-latest
 --platform=linux/arm64  easypi/nfs:latest
 --platform=linux/arm64  gists/nfs-server:latest
@@ -96,7 +95,6 @@ docker run -it --rm -p 445:445 -e "USER=samba" -e "PASS=secret" -v "/home/exampl
 --platform=linux/arm64  vortland/kodi:latest
 --platform=linux/arm64 dockurr/samba:latest
 
-
 --platform=linux/amd64 linuxserver/qbittorrent
 --platform=linux/amd64 ubuntu
 --platform=linux/amd64 redis
@@ -104,7 +102,7 @@ docker run -it --rm -p 445:445 -e "USER=samba" -e "PASS=secret" -v "/home/exampl
 --platform=linux/amd64 nginx
 --platform=linux/amd64 library/openjdk
 --platform=linux/amd64 wordpress
---platform=linux/amd64 dperson/samba:latest
+--platform=linux/amd64 dockurr/samba:latest
 --platform=linux/amd64 star7th/showdoc:latest
 
 
