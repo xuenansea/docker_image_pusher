@@ -1,27 +1,28 @@
-#--platform=linux/arm64  dockerpinata/nfs:1.3
-#--platform=linux/arm64  easypi/nfs:latest
-#--platform=linux/arm64  rook/nfs:v1.7.3
-#--platform=linux/arm64  rook/nfs:master
-#--platform=linux/arm64  rook/nfs:v1.6.11
-
-#--platform=linux/arm64  gists/nfs-server:latest
-#--platform=linux/arm64  gists/nfs-server:2.6.4
-#--platform=linux/arm64  gists/nfs-server:2.5.4
-
-#--platform=linux/arm64  fascinatedcow/kodi:21.1.0
---platform=linux/arm64  vortland/kodi:latest
---platform=linux/arm64  lsioarmhf/kodi-headless-aarch64:44
---platform=linux/arm64  lsioarmhf/kodi-headless-aarch64:latest
---platform=linux/arm64  fhriley/kodi-headless-novnc:latest
-
---platform=linux/arm64  zeehio/ha-kodi-aarch64:latest
---platform=linux/arm64  zeehio/ha-kodi-aarch64:0.0.32
-
+# -----last
+--platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/arm64 ubuntu
+--platform=linux/arm64 redis
+--platform=linux/arm64 mariadb
+--platform=linux/arm64 nginx
+--platform=linux/arm64 library/openjdk
+--platform=linux/arm64 wordpress
 --platform=linux/arm64 dockurr/samba:latest
---platform=linux/arm64 dockurr/samba:4.20.6
---platform=linux/arm64 dperson/samba:aarch64
-
+--platform=linux/arm64 star7th/showdoc:arm-latest
+--platform=linux/arm64  easypi/nfs:latest
+--platform=linux/arm64  gists/nfs-server:latest
 --platform=linux/arm64 xiaoyaliu/alist:latest
---platform=linux/arm64 xhofe/alist:main-aria2
 --platform=linux/arm64 xhofe/alist:beta-aria2
 --platform=linux/arm64 xhofe/alist:latest
+--platform=linux/arm64  vortland/kodi:latest
+--platform=linux/arm64 dockurr/samba:latest
+
+
+--platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/amd64 ubuntu
+--platform=linux/amd64 redis
+--platform=linux/amd64 mariadb
+--platform=linux/amd64 nginx
+--platform=linux/amd64 library/openjdk
+--platform=linux/amd64 wordpress
+--platform=linux/amd64 dockurr/samba:latest
+--platform=linux/amd64 star7th/showdoc:latest
