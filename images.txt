@@ -3,7 +3,6 @@
 --platform=linux/arm64  rook/nfs:v1.7.3
 --platform=linux/arm64  rook/nfs:master
 --platform=linux/arm64  rook/nfs:v1.6.11
-	
 
 --platform=linux/arm64  gists/nfs-server:latest
 --platform=linux/arm64  gists/nfs-server:2.6.4
