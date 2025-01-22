@@ -10,10 +10,9 @@
 --platform=linux/arm64 star7th/showdoc:arm-latest
 --platform=linux/arm64  easypi/nfs:latest
 --platform=linux/arm64  gists/nfs-server:latest
---platform=linux/arm64 xiaoyaliu/alist:latest
---platform=linux/arm64 xhofe/alist:beta-aria2
+
+--platform=linux/arm64 xhofe/alist:main-aria2
 --platform=linux/arm64 xhofe/alist:latest
---platform=linux/arm64  vortland/kodi:latest
 --platform=linux/arm64 xhofe/alist:beta-aio
 --platform=linux/arm64 xhofe/alist:main-aio
 --platform=linux/arm64 xhofe/alist:main-ffmpeg
