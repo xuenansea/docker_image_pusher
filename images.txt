@@ -14,8 +14,6 @@
 --platform=linux/arm64 xhofe/alist:beta-aria2
 --platform=linux/arm64 xhofe/alist:latest
 --platform=linux/arm64  vortland/kodi:latest
---platform=linux/arm64 dockurr/samba:latest
-
 
 --platform=linux/amd64 linuxserver/qbittorrent
 --platform=linux/amd64 ubuntu
