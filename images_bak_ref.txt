@@ -95,7 +95,7 @@ docker run -it --rm -p 445:445 -e "USER=samba" -e "PASS=secret" -v "/home/exampl
 --platform=linux/arm64  vortland/kodi:latest
 --platform=linux/arm64 xhofe/alist:beta-aio
 --platform=linux/arm64 xhofe/alist:main-aio
-
+--platform=linux/arm64 xhofe/alist:main-ffmpeg
 
 --platform=linux/amd64 linuxserver/qbittorrent
 --platform=linux/amd64 ubuntu
