@@ -78,7 +78,7 @@ docker run -it --rm -p 445:445 -e "USER=samba" -e "PASS=secret" -v "/home/exampl
 
 
 # -----last
---platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/arm64 linuxserver/qbittorrent
 --platform=linux/arm64 ubuntu
 --platform=linux/arm64 redis
 --platform=linux/arm64 mariadb
