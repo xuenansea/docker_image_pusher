@@ -1,5 +1,5 @@
 # -----last
---platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/arm64 linuxserver/qbittorrent
 --platform=linux/arm64 ubuntu
 --platform=linux/arm64 redis
 --platform=linux/arm64 mariadb
