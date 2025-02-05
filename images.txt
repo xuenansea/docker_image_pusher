@@ -11,11 +11,7 @@
 --platform=linux/arm64  easypi/nfs:latest
 --platform=linux/arm64  gists/nfs-server:latest
 
---platform=linux/arm64 xhofe/alist:main-aria2
 --platform=linux/arm64 xhofe/alist:latest
---platform=linux/arm64 xhofe/alist:beta-aio
---platform=linux/arm64 xhofe/alist:main-aio
---platform=linux/arm64 xhofe/alist:main-ffmpeg
 
 --platform=linux/amd64 linuxserver/qbittorrent
 --platform=linux/amd64 ubuntu
