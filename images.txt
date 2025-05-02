@@ -5,7 +5,7 @@
 --platform=linux/arm64 mariadb
 --platform=linux/arm64 nginx
 --platform=linux/arm64 library/openjdk
---platform=linux/arm64 wordpress
+# --platform=linux/arm64 wordpress
 --platform=linux/arm64 dockurr/samba:latest
 --platform=linux/arm64 star7th/showdoc:arm-latest
 --platform=linux/arm64  easypi/nfs:latest
@@ -19,6 +19,6 @@
 --platform=linux/amd64 mariadb
 --platform=linux/amd64 nginx
 --platform=linux/amd64 library/openjdk
---platform=linux/amd64 wordpress
+#--platform=linux/amd64 wordpress
 --platform=linux/amd64 dockurr/samba:latest
 --platform=linux/amd64 star7th/showdoc:latest
