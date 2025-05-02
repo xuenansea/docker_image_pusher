@@ -6,10 +6,10 @@
 --platform=linux/arm64 nginx
 --platform=linux/arm64 library/openjdk
 # --platform=linux/arm64 wordpress
---platform=linux/arm64 dockurr/samba:latest
+#--platform=linux/arm64 dockurr/samba:latest
 --platform=linux/arm64 star7th/showdoc:arm-latest
---platform=linux/arm64  easypi/nfs:latest
---platform=linux/arm64  gists/nfs-server:latest
+#--platform=linux/arm64  easypi/nfs:latest
+#--platform=linux/arm64  gists/nfs-server:latest
 
 --platform=linux/arm64 xhofe/alist:latest
 
@@ -20,5 +20,5 @@
 --platform=linux/amd64 nginx
 --platform=linux/amd64 library/openjdk
 #--platform=linux/amd64 wordpress
---platform=linux/amd64 dockurr/samba:latest
---platform=linux/amd64 star7th/showdoc:latest
+#--platform=linux/amd64 dockurr/samba:latest
+#--platform=linux/amd64 star7th/showdoc:latest
