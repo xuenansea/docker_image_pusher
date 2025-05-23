@@ -1,1 +1,25 @@
---platform=linux/arm64  bestzwei/libretv:latest
+# --platform=linux/arm64  bestzwei/libretv:latest
+# -----last
+--platform=linux/arm64 linuxserver/qbittorrent
+--platform=linux/arm64 ubuntu
+--platform=linux/arm64 redis
+--platform=linux/arm64 mariadb
+--platform=linux/arm64 nginx
+--platform=linux/arm64 library/openjdk
+# --platform=linux/arm64 wordpress
+#--platform=linux/arm64 dockurr/samba:latest
+--platform=linux/arm64 star7th/showdoc:arm-latest
+#--platform=linux/arm64  easypi/nfs:latest
+#--platform=linux/arm64  gists/nfs-server:latest
+
+--platform=linux/arm64 xhofe/alist:latest
+
+--platform=linux/amd64 linuxserver/qbittorrent
+--platform=linux/amd64 ubuntu
+--platform=linux/amd64 redis
+--platform=linux/amd64 mariadb
+--platform=linux/amd64 nginx
+--platform=linux/amd64 library/openjdk
+#--platform=linux/amd64 wordpress
+#--platform=linux/amd64 dockurr/samba:latest
+#--platform=linux/amd64 star7th/showdoc:latest
