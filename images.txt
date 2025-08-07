@@ -4,6 +4,7 @@
 #--docker ui
 --platform=linux/arm64  joinsunsoft/docker.ui:latest
 --platform=linux/arm64  dpanel/dpanel:latest
+--platform=linux/arm64  dpanel/dpanel:lite
 
 # -----last
 --platform=linux/arm64 linuxserver/qbittorrent
