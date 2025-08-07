@@ -1,4 +1,6 @@
 --platform=linux/arm64  bestzwei/libretv:latest
+--platform=linux/arm64  ghcr.io/lunatechlab/moontv:latest
+
 # -----last
 --platform=linux/arm64 linuxserver/qbittorrent
 --platform=linux/arm64 ubuntu
