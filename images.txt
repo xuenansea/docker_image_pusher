@@ -1,8 +1,8 @@
 #-- tv
---platform=linux/arm64  bestzwei/libretv:latest
+#--platform=linux/arm64  bestzwei/libretv:latest
 --platform=linux/arm64  ghcr.io/lunatechlab/moontv:latest
 #--docker ui
---platform=linux/arm64  joinsunsoft/docker.ui:latest
+#--platform=linux/arm64  joinsunsoft/docker.ui:latest
 --platform=linux/arm64  dpanel/dpanel:latest
 --platform=linux/arm64  dpanel/dpanel:lite
 
