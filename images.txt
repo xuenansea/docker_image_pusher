@@ -1,6 +1,2 @@
---platform=linux/arm64 nastools/nas-tools:latest
---platform=linux/arm64 nastools/nas-tools:2.9.1
---platform=linux/arm64 nastools/nas-tools:3.2.2
---platform=linux/amd64 nastools/nas-tools:latest
---platform=linux/amd64 nastools/nas-tools:2.9.1
---platform=linux/amd64 nastools/nas-tools:3.2.2
+--platform=linux/arm64  ghcr.io/lunatechlab/moontv:latest
+--platform=linux/amd64  ghcr.io/lunatechlab/moontv:latest
