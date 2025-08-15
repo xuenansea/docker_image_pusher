@@ -1,2 +1,2 @@
---platform=linux/arm64  ghcr.io/lunatechlab/moontv:latest
---platform=linux/amd64  ghcr.io/lunatechlab/moontv:latest
+--platform=linux/arm64 ghcr.io/lunatechlab/moontv:latest
+--platform=linux/amd64 ghcr.io/lunatechlab/moontv:latest
