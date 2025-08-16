@@ -2,8 +2,8 @@
 #--platform=linux/arm64  bestzwei/libretv:latest
 #--platform=linux/arm64  ghcr.io/lunatechlab/moontv:latest
 #--platform=linux/amd64 ghcr.io/lunatechlab/moontv:latest
---platform=linux/amd64  7x24/moontv:20250813
---platform=linux/amd64  7x24/moontv:latest
+#--platform=linux/amd64  7x24/moontv:20250813
+#--platform=linux/amd64  7x24/moontv:latest
 # docker pull haoxuan8855/moontv:latest    # arm amd
 
 #--docker ui
