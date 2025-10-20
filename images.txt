@@ -21,8 +21,9 @@
 #--platform=linux/arm64  easypi/nfs:latest
 #--platform=linux/arm64  gists/nfs-server:latest
 
---platform=linux/arm64 xhofe/alist:latest
+#--platform=linux/arm64 xhofe/alist:latest
 --platform=linux/arm64 openlistteam/openlist:latest
+--platform=linux/arm64 openlistteam/openlist:latest-ffmpeg
 
 #--platform=linux/amd64 linuxserver/qbittorrent
 #--platform=linux/amd64 ubuntu
