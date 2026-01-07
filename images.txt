@@ -20,7 +20,6 @@
 
 --platform=linux/arm64 openlistteam/openlist:latest
 --platform=linux/arm64 openlistteam/openlist:latest-ffmpeg
---platform=linux/arm64 openlistteam/openlist:latest-slim
 --platform=linux/amd64 openlistteam/openlist:latest-ffmpeg
 #--platform=linux/amd64 linuxserver/qbittorrent
 #--platform=linux/amd64 ubuntu
