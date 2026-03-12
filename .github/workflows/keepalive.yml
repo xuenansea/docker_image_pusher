@@ -1,0 +1,16 @@
+name: Keepalive
+on:
+  schedule:
+    - cron: '0 0 */45 * *'  # 每 45 天跑一次，留缓冲
+  workflow_dispatch:        # 允许手动触发
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          time_elapsed: 45  # 距离上次 commit 超过 45 天就触发
