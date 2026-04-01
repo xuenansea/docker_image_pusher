@@ -1,16 +1,32 @@
 name: Keepalive
+
 on:
   schedule:
-    - cron: '0 0 */45 * *'  # 每 45 天跑一次，留缓冲
-  workflow_dispatch:        # 允许手动触发
+    - cron: '0 0 */45 * *'
+  workflow_dispatch:
 
 jobs:
   keepalive:
     runs-on: ubuntu-latest
     permissions:
-      actions: write
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/keepalive-workflow@v2
         with:
-          time_elapsed: 45  # 距离上次 commit 超过 45 天就触发
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Keep repository active
+        run: |
+          LAST_COMMIT=$(git log -1 --format="%ct")
+          NOW=$(date +%s)
+          DIFF=$(( (NOW - LAST_COMMIT) / 86400 ))
+          echo "距上次提交已过 $DIFF 天"
+          if [ $DIFF -ge 45 ]; then
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git config user.name "github-actions[bot]"
+            git commit --allow-empty -m "chore: keep repository active [skip ci]"
+            git push
+          else
+            echo "未超过45天，跳过提交"
+          fi
