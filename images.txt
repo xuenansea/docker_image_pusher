@@ -5,9 +5,10 @@
 #--platform=linux/amd64  7x24/moontv:20250813
 #--platform=linux/amd64  7x24/moontv:latest
 # docker pull haoxuan8855/moontv:latest    # arm amd
---platform=linux/arm64 python:3.12-slim
---platform=linux/arm64 node:20-alpine
---platform=linux/arm64 nginx:1.27-alpine
+
+#--platform=linux/arm64 python:3.12-slim
+#--platform=linux/arm64 node:20-alpine
+#--platform=linux/arm64 nginx:1.27-alpine
 
 #--docker ui
 --platform=linux/arm64  dpanel/dpanel:lite
