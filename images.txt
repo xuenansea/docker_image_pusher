@@ -9,7 +9,7 @@
 #--platform=linux/arm64 python:3.12-slim
 #--platform=linux/arm64 node:20-alpine
 #--platform=linux/arm64 nginx:1.27-alpine
---platform=linux/arm64 rustfs/rustfs:latest
+#--platform=linux/arm64 rustfs/rustfs:latest
 
 #--docker ui
 --platform=linux/arm64  dpanel/dpanel:lite
