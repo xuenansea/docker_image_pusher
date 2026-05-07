@@ -12,6 +12,9 @@
 #--platform=linux/arm64 rustfs/rustfs:latest
 #--platform=linux/arm64 node:24-bookworm-slim
 
+--platform=linux/arm64 debian:bullseye-slim
+--platform=linux/arm64 debian:bullseye
+
 #--docker ui
 --platform=linux/arm64  dpanel/dpanel:lite
 # -----last
