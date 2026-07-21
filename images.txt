@@ -13,9 +13,9 @@
 #--platform=linux/arm64 rustfs/rustfs:latest
 #--platform=linux/arm64 node:24-bookworm-slim
 # -- ocr
---platform=linux/arm64 foxitslucey/paddleocr:ae07417c-cpu-arm64
---platform=linux/arm64 inforedaster/paddleocr-api:2.7
---platform=linux/arm64 987846/paddleocr:server-v2.7.1
+#--platform=linux/arm64 foxitslucey/paddleocr:ae07417c-cpu-arm64
+#--platform=linux/arm64 inforedaster/paddleocr-api:2.7
+#--platform=linux/arm64 987846/paddleocr:server-v2.7.1
 
 #--platform=linux/amd64 debian:12.13-slim
 #--platform=linux/arm64 debian:12.13-slim
