@@ -30,6 +30,12 @@
 --platform=linux/amd64 nastools/nas-tools:2.9.1
 --platform=linux/amd64 nastools/nas-tools:3.2.2
 
+# -- ocr
+#--platform=linux/arm64 foxitslucey/paddleocr:ae07417c-cpu-arm64
+#--platform=linux/arm64 inforedaster/paddleocr-api:2.7
+#--platform=linux/arm64 987846/paddleocr:server-v2.7.1
+
+
 #--platform=linux/amd64 linuxserver/qbittorrent
 #--platform=linux/amd64 ubuntu
 #--platform=linux/amd64 redis
