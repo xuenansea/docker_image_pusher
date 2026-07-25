@@ -7,7 +7,7 @@
 # docker pull haoxuan8855/moontv:latest    # arm amd
 # --platform=linux/arm64 ollama/ollama:latest
 
---platform=linux/arm64 library/python:3.14-slim-bookworm
+#--platform=linux/arm64 library/python:3.14-slim-bookworm
 
 #--platform=linux/arm64 python:3.12-slim
 #--platform=linux/arm64 node:20-alpine
