@@ -13,6 +13,8 @@
 #--platform=linux/arm64 library/python:3.14-slim-bookworm
 #--platform=linux/arm64 oven/bun:debian
 #--platform=linux/arm64 node:22-slim
+--platform=linux/arm64 calciumion/new-api:v1.0.0-rc.24-arm64
+--platform=linux/arm64 calciumion/new-api:latest
 
 #--platform=linux/arm64 python:3.12-slim
 #--platform=linux/arm64 node:20-alpine
