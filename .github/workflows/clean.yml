@@ -1,12 +1,12 @@
 name: CleanDisk
 on:
   schedule:
-    - cron: '0 0 */2 * *'
+    - cron: '0 0 */10 * *'
   workflow_dispatch:
 
 jobs:
   clean:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
