@@ -6,53 +6,16 @@
 #--platform=linux/amd64  7x24/moontv:latest
 # docker pull haoxuan8855/moontv:latest    # arm amd
 # --platform=linux/arm64 ollama/ollama:latest
-#--platform=linux/arm64 ghcr.io/mtvpls/moontvplus:latest
-#--platform=linux/arm64 ghcr.io/senshinya/moontv:latest
+--platform=linux/arm64 ghcr.io/mtvpls/moontvplus:latest
+--platform=linux/arm64 ghcr.io/senshinya/moontv:latest
 
 # --platform=linux/arm64 liwei2633/gopeed:v1.9.3
 
 #--platform=linux/arm64 calciumion/new-api:v1.0.0-rc.24-arm64
---platform=linux/arm64 calciumion/new-api:latest
+#--platform=linux/arm64 calciumion/new-api:latest
 #--platform=linux/arm64 looplj/axonhub:unstable-arm64
 #--platform=linux/amd64 looplj/axonhub:unstable-amd64
 
-#--platform=linux/arm64 library/python:3.14-slim-bookworm
-#--platform=linux/arm64 oven/bun:debian
-#--platform=linux/arm64 node:22-slim
-
-#--platform=linux/arm64 python:3.12-slim
-#--platform=linux/arm64 node:20-alpine
-#--platform=linux/arm64 nginx:1.27-alpine
-#--platform=linux/arm64 rustfs/rustfs:latest
-#--platform=linux/arm64 node:24-bookworm-slim
-# -- ocr
-#--platform=linux/arm64 foxitslucey/paddleocr:ae07417c-cpu-arm64
-#--platform=linux/arm64 inforedaster/paddleocr-api:2.7
-#--platform=linux/arm64 987846/paddleocr:server-v2.7.1
-#--platform=linux/arm64 anonimaks/paddleocrfastapi-arm:latest
-
-#--platform=linux/amd64 debian:12.13-slim
-#--platform=linux/arm64 debian:12.13-slim
-
-#--docker ui
---platform=linux/arm64  dpanel/dpanel:lite
-# -----last
---platform=linux/arm64 linuxserver/qbittorrent
---platform=linux/arm64 ubuntu
---platform=linux/arm64 redis
-# --platform=linux/arm64 mariadb
---platform=linux/arm64 nginx
-# --platform=linux/arm64 library/openjdk
-# --platform=linux/arm64 wordpress
-#--platform=linux/arm64 star7th/showdoc:arm-latest
-
---platform=linux/arm64 openlistteam/openlist:latest
---platform=linux/arm64 openlistteam/openlist:latest-ffmpeg
---platform=linux/arm64 openlistteam/openlist:latest-aio
---platform=linux/arm64 openlistteam/openlist:latest-lite
---platform=linux/amd64 openlistteam/openlist:latest-ffmpeg
-#--platform=linux/amd64 linuxserver/qbittorrent
-#--platform=linux/amd64 ubuntu
 #--platform=linux/amd64 redis
 #--platform=linux/amd64 mariadb
 #--platform=linux/amd64 nginx
