@@ -1,4 +1,4 @@
-name: Clean Runner Disk
+name: Clean
 on:
   workflow_run:
     # 监听所有工作流结束，不管成功失败都触发清理
