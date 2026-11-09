@@ -7,7 +7,7 @@
 # docker pull haoxuan8855/moontv:latest    # arm amd
 # --platform=linux/arm64 ollama/ollama:latest
 --platform=linux/arm64 ghcr.io/mtvpls/moontvplus:latest
---platform=linux/arm64 ghcr.io/senshinya/moontv:latest
+#--platform=linux/arm64 ghcr.io/senshinya/moontv:latest
 
 # --platform=linux/arm64 liwei2633/gopeed:v1.9.3
 
