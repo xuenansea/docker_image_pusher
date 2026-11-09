@@ -1,0 +1,30 @@
+name: Clean Runner Disk
+on:
+  workflow_run:
+    # 监听所有工作流结束，不管成功失败都触发清理
+    workflows: ["*"]
+    types:
+      - completed
+  # 可选：定时兜底清理，每天凌晨2点跑一次
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  clean:
+    runs-on: self-hosted
+    # 只在自建runner执行
+    steps:
+      - name: Clean runner workspace and diag logs
+        run: |
+          set -e
+          echo "===== Start cleaning ====="
+          # 清理 runner diag 诊断日志（就是你报错的目录）
+          rm -rf /home/runner/actions-runner/cached/*/_diag/* || true
+          # 清理工作目录旧文件
+          rm -rf /home/runner/actions-runner/_work/* || true
+          # 清理docker镜像、容器、构建缓存（如果你不用docker，可以删掉这行）
+          docker system prune -af --volumes || true
+          # 清理docker buildx缓存
+          docker builder prune -af || true
+          echo "===== Clean finished ====="
+          df -h
